@@ -9,6 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-content: center;
+    
 }
 
 .nav-left {
@@ -18,9 +19,9 @@
 
 .nav-left span {
     display: flex;
-    font-size: 30px;
+    font-size: 25px;
     padding-top: 10px;
-    color: rgb(0, 0, 155);
+    color: rgb(0, 0, 0);
 }
 
 .navigation ul {
@@ -32,12 +33,10 @@
 
 .nav-left ul li {
     list-style: none;
-    border: 3px solid black;
     color: black;
     padding: 3px 5px;
     margin: 0 20px;
     font-family: var(--font2);
-    border-radius: 20px;
 }
 
 .nav-left ul li a {
@@ -53,17 +52,26 @@
 .content {
     display: flex;
     height: 80vw;
-    background-color: bisque;
-    border: 2px solid black;
-    border-radius: 2%;
+     /*background-color: bisque;*/
+    
+}
+.content img{
+    height: 329px;
+    width:auto;
 }
 
 .content-left {
     font-family: var(--font1);
+   width: 50%;
+    font-size: 15px;
+    
 }
 
 .content-right {
     font-family: var(--font2);
+    font-size: 20px;
+    width: 50%;
+    /*background-color: bisque;*/
 }
 
 
@@ -73,3 +81,9 @@
     background-color: rgb(255, 255, 255);
 
 }
+
+
+
+
+
+
