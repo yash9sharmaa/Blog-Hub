@@ -1,46 +1,179 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/utils.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Blog-Hub </title>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/utils.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <title>iBlog - Heaven for bloggers</title>
 </head>
 
 <body>
-    
-    <nav class="navigation max-width-1 m-auto">
-        <div class="nav-left">
-            <span>Blog-Hub</span>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="/contact">Contact Us</a></li>
-            </ul>
-        </div>
-        <div class="nav-right">
-            
-            <input class="form-input" type="text" placeholder="Search Article...">
-            <button class="btn"><b>Search</b></button>
-        
-        </div>
-    </nav>
-    <div class="content max-width-1 m-auto">
-<div class="content-left">
-<h1>Heaven for Bloggers</h1>
-<br>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Temporibus incidunt iste dolorem laboriosam soluta, mollitia nisi eaque voluptate iure beatae sapiente amet numquam eos consequatur sunt recusandae architecto odio enim? Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Incidunt porro repellat similique quam ipsam, iusto voluptatibus rem laboriosam dolores repudiandae dolore. Quasi, eaque enim. Ipsa nostrum molestias vero ducimus culpa.</p>
-</div>
-<class="content-right">
-<img src="img\vecteezy_overhead-shot-of-man-working-on-laptop-flat-lay-top-view_.jpg" alt="Bloh-Hub">
-</div>
-    </div>
-    <div class="footer max-width-2 m-auto">
-        <a href="https://www.vecteezy.com/free-vector/typing">Credit: Vectors by Vecteezy</a>
-    </div>
+  <nav class="navigation max-width-1 m-auto">
+      <div class="nav-left">
+          <a href="/">
+              <span><img src="img/logo.png" width="94px" alt=""></span>
+          </a>
+          <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+          </ul>
+      </div>
+      <div class="nav-right">
+          <form action="/search.html" method="get">
+              <input class="form-input" type="text" name="query" placeholder="Article Search">
+              <button class="btn">Search</button>
+          </form>
 
-</body>
+      </div>
 
-</html>
+  </nav>
+  <div class="max-width-1 m-auto">
+      <hr>
+  </div>
+  <div class="m-auto content max-width-1 my-2">
+      <div class="content-left">
+          <h1>The heaven for bloggers</h1>
+          <p>iBlog is a website which lets you submit an article which upon approval will be up on our website and you
+              can get a good amount of reach from here!</p>
+          <p>My Halloween decorations are staying in the box this year. To be honest, they didn’t make it out of the
+              box last year either. My Halloween spirit has officially been bludgeoned to death by teenagers who no
+              longer care and a persistent October fear of the Northern California wildfires. And speaking of fear,
+              isn’t there more than enough of that going around? Maybe all of us can pretend that Halloween isn’t even
+              happening this year?</p>
+      </div>
+      <div class="content-right">
+          <img src="img/home.svg" alt="iBlog">
+      </div>
+  </div>
+
+  <div class="max-width-1 m-auto">
+      <hr>
+  </div>
+  <div class="home-articles max-width-1 m-auto font2">
+      <h2>Featured Articles</h2>
+      <div class="year-box adjust-year">
+          <div>
+              <h3>Year </h3>
+          </div>
+          <div>
+              <input type="radio" name="year" id=""> 2022
+          </div>
+          <div>
+              <input type="radio" name="year" id=""> 2023
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/3.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/1.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/2.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/1.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/11.svg" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/3.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/2.png" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+      <div class="home-article">
+          <div class="home-article-img">
+              <img src="img/11.svg" alt="article">
+          </div>
+          <div class="home-article-content font1">
+              <a href="/blogpost.html">
+                  <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+              </a>
+
+              <div>Author Name</div>
+              <span>07 January | 6 min read</span>
+          </div>
+      </div>
+
+  </div>
+
+  <div class="footer">
+      <p>Copyright © iBlog.com </p>
+      <a href="https://www.vecteezy.com/free-vector/typewriter">Vector Credits: Vecteezy</a>
+  </div>
+
+
+</body></html>
