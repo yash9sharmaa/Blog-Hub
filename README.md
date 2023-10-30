@@ -1,2 +1,2 @@
-# Blog-Hub
+# iBlog-Hub
 Blog Page
